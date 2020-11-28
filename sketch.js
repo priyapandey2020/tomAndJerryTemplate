@@ -1,6 +1,6 @@
 
 function preload() {
-    bg = loadImage("images/garden.png");
+    //load the images here
 }
 
 function setup(){
@@ -11,7 +11,7 @@ function setup(){
 
 function draw() {
 
-    background(bg);
+    background(255);
     //Write condition here to evalute if tom and jerry collide
 
     drawSprites();
